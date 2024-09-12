@@ -66,3 +66,13 @@ print(st)
 st = complex(st)
 print(type(st))
 print(st)
+
+
+# functions
+
+p = -7.5
+print(abs(p))
+
+import math
+z =10
+print(math.exp(z))
