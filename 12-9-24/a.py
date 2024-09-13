@@ -102,4 +102,44 @@ print(conc)
 x=[0]*100
 print(x)
 
-var =
+var =list("Muslim")
+print(var)
+
+num=[1,2,3,4]
+one, *other =num
+print(one)
+print(other)
+num.append(9)
+print(num)
+
+num.extend(mix)
+print(num)
+
+# var1=("d","a","c")
+# var1.sort()
+# print(var1)
+
+a= (1,2,454,67)
+print(len(a))
+print(max(a))
+print(min(a))
+print(sum(a))
+
+# 
+#Tuple
+# 
+emp = "karachi",
+print(type(emp))
+
+emp1 =(1,2,3,4)
+print(emp1) 
+print(type(emp1))
+
+city =("karachi","lahore","islamabad")
+print(city[1])
+
+print(city+emp1)
+print(city,emp1)
+print(city*5)
+cit=("abcdef")
+print(tuple(cit))
