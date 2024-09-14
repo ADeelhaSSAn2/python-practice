@@ -81,3 +81,26 @@ print(s1.union(s2))
 print(s1.difference(s2))
 
 # youtube
+
+
+dic ={
+    "Adeel":"Muslim country leader",
+    "Country":"Pakistan"
+}
+print(dic["Adeel"])
+
+dic.pop("Country")
+print(dic)
+
+dat ={
+    350:"Adeel",
+    351:"Zohaib"
+}
+print(dat[351])
+print(dat.keys())
+print(dat.get(350))
+print(dat.values())
+print(dat.items())
+
+# print(dic.update(dat))
+
