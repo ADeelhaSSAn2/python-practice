@@ -45,22 +45,34 @@
 #         print()
 
 
-colors = ["red","blue","green"]
-for color in colors:
-    print(color)
-    for i in color:
-        print(i)
-        # 
+# colors = ["red","blue","green"]
+# for color in colors:
+#     print(color)
+#     for i in color:
+#         print(i)
+#         # 
  
         
 
-for k in range(10):
-    print(k +1)
+# for k in range(10):
+#     print(k +1)
     
 
 
-
-
+# i = 0
+# while(i<=3):
+#     print(i)
+#     i = i + 1
+    
+# print("Done while loop")
+ 
+ 
+count = 5
+while (count > 0):
+    print(count)
+    count = count - 1
+else:
+    print("I am inside else")
 
 
 
