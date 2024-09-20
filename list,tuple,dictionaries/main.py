@@ -39,6 +39,14 @@ p.pop(1)
 print(p)
 
 # tuples in python
+
 tu = (1,2,3,4)
 print(type(tu))
 
+# Dictionaries in python
+
+dic = {
+    "Adeel": "Muslim",
+    "spoon": "object"
+}
+print(dic["Adeel"])
